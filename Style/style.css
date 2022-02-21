@@ -114,12 +114,12 @@ header .profile-pic {
 .projects{
     text-align: center;
     margin: 0px 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .projects h1{
     font-size: 50px;
-    color: #ea5563;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e63946;
 }
 
 .projects .cards .card1,.card2,.card3{
@@ -137,13 +137,36 @@ header .profile-pic {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);   
 }
 
-.projects .cards button {
-    margin: 30px 0px;
-}
+
 
 .card1 h2, .card2 h2, .card3 h2, .card1 p, .card2 p, .card3 p {
     /* background-color: #ea5563; */
     padding: 20px;
+}
+
+.projects .cards button {
+    margin: 30px 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: #e63946ff;
+    color: #fff;
+    padding: 23px 50px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border-radius: 3%;
+    border: 0;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+}
+
+.projects .cards button:hover {
+    transform: scale(1.04, 1);
+    background-color: rgb(216, 10, 27);
+    text-decoration: none;
 }
 
 
